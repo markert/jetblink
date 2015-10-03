@@ -36,3 +36,8 @@ Light 2 (steering):
 - green: front
 - yellow: left
 - blue: right
+
+### TODO
+- blink patterns
+- reshape interface
+- make it run on Windows and MAC
