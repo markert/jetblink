@@ -23,7 +23,7 @@ ghpages:
 	git checkout master www/
 	cp www/src.js src.js
 	cp www/index.html index.html
-	cp www/src.js src.js
+	cp www/jet.js jet.js
 	rm -rf www/
 	git add . --all
 	git commit -m "update gh-pages"
