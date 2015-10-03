@@ -12,7 +12,7 @@ eslint: src/*.js
 test:
 	$(MOCHA) --compilers js:babel/register
 
-beautify: ./src/*.js
+beautify: ./src/*.js ./www/*.js ./www/*.html
 	$(BEAUTIFY) $^ --replace
 
 server:
