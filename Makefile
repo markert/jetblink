@@ -17,5 +17,17 @@ beautify: ./src/*.js ./www/*.js ./www/*.html
 
 server:
 	python -m SimpleHTTPServer 8080
+	
+ghpages:
+	git checkout gh-pages
+	git checkout master www/
+	cp www/src.js src.js
+	cp www/index.html index.html
+	cp www/src.js src.js
+	rm -rf www/
+	git add . --all
+	git commit -m "update gh-pages"
+	git push
+	git checkout master
 
 .PHONY: eslint test build beautify ghpages
