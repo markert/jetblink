@@ -35,7 +35,7 @@ var external = {
         args += '--blink ' + params.blink + ' ';
       }
       if (params.glimmer) {
-        args += '--glimmer ' + params.glimmer + ' '
+        args += '--glimmer=' + params.glimmer + ' '
       }
       if (params.fading) {
         args += '-m ' + params.fading + ' '
