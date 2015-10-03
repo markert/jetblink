@@ -24,10 +24,12 @@ There is one video showing the control of the [blink(1) mk2](https://github.com/
 There is another video showing my [PiCar](https://github.com/markert/jetblink/blob/master/media/VID_20151003_164806.mp4) using the blink(1) mk2. Color codes are as follows:
 
 red: no client connected -> car stops
+
 Light 1 (motor):
 - green: stop
 - yellow: backward (intenity equals PWM motor speed)
 - blue: forward (intenity equals PWM motor speed)
+
 Light 2 (steering):
 - green: front
 - yellow: left
