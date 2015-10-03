@@ -61,3 +61,11 @@ document.getElementById('set').onclick = function () {
   blink.color = color.value;
   peer.call('/blink/api/color', blink);
 };
+
+var image = document.getElementById('mjpeg_dest');
+var updateImage = function () {
+  image.src = 'cam.jpg?time=' + new Date().getTime();
+  setTimeout(window.requestAnimationFrame(updateImage), 40);
+}
+
+updateImage();
