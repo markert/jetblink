@@ -11,6 +11,10 @@ var external = {
     states.blink.system = {};
     states.blink.api = {};
     var sn = 'x';
+    exec('blink1-tool --on');
+    states.blink.api.state = new jet.State('/blink/api/state', 'blink1-tool --on');
+    states.blink.api.state.on('set', function (param) {});
+    peer.add(states.blink.api.state);
     exec('blink1-tool --list', function (e, o) {
       sn = o.split(':').pop();
       states.blink.system.id = new jet.State('/blink/system/id', sn);
@@ -39,8 +43,10 @@ var external = {
       if (params.time) {
         args += '-t ' + params.time + ' '
       }
-      exec('blink1-tool ' + args);
-      console.log('blink1-tool ' + args);
+      var cmd = 'blink1-tool ' + args;
+      exec(cmd);
+      peer.set('/blink/api/state', cmd);
+      console.log(cmd);
     });
     peer.add(states.blink.api.color);
   }
