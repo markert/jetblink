@@ -29,8 +29,8 @@ red: no client connected -> car stops
 
 Light 1 (motor):
 - green: stop
-- yellow: backward (intenity equals PWM motor speed)
-- blue: forward (intenity equals PWM motor speed)
+- yellow: backward (intensity equals PWM motor speed)
+- blue: forward (intensity equals PWM motor speed)
 
 Light 2 (steering):
 - green: front
