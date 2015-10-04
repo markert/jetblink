@@ -2,7 +2,7 @@
 
 This node.js library links the blink(1) mk2 to a websocket based, multi-client capable IPC mechanism called [jet](http://www.jetbus.io).
 
-Use it to achieve any functionality you desire with the blink(1) mk2. It is easy controllable and websocket based. Clients can be either programs running in the RPi or browsers and services on other machines. I provide an RC-car example use case.
+Use it to achieve any functionality you desire with the blink(1) mk2. It is easy controllable and websocket based. Clients can be either programs running in the RPi or browsers and services on other machines. I provide an RC-car example use case. The car is controlled completely over the jet protocol. One daemon runs on the RPi and several services like jetblink or motor-controls connect to it.
 
 The implementation works on a Raspberry PI but can easily be updated to work on MAC or Windows.
 
@@ -29,10 +29,15 @@ red: no client connected -> car stops
 
 Light 1 (motor):
 - green: stop
-- yellow: backward (intenity equals PWM motor speed)
-- blue: forward (intenity equals PWM motor speed)
+- yellow: backward (intensity equals PWM motor speed)
+- blue: forward (intensity equals PWM motor speed)
 
 Light 2 (steering):
 - green: front
 - yellow: left
 - blue: right
+
+### TODO
+- blink patterns
+- reshape interface
+- make it run on Windows and MAC
