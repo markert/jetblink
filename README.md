@@ -23,7 +23,7 @@ The Media shows the really ugly control website for the [car](https://github.com
 
 There is one video showing the control of the [blink(1) mk2](https://github.com/markert/jetblink/blob/master/media/chrome.webm) over the website. The delay is mostly due to the 1080p camera delay of the RPi. Light changes instantly. It can also be controlled from several clients simultaneuously. 
 
-There is another video showing my [PiCar](https://github.com/markert/jetblink/blob/master/media/VID_20151003_164806.mp4) using the blink(1) mk2. Color codes are as follows:
+There is another video showing my [PiCar](https://github.com/markert/jetblink/blob/master/media/VID_20151003_164806.mp4) using the blink(1) mk2 and one of the [driving car](https://github.com/markert/jetblink/blob/master/media/VID_20151004_191810.mp4). For more info about the PiCar visit my [homepage](http://scienceflow.de/#/science_picar) Color codes are as follows:
 
 red: no client connected -> car stops
 
