@@ -37,6 +37,9 @@ Light 2 (steering):
 - yellow: left
 - blue: right
 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/oB5Ap-rL-zA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WDHESGnZv1w" frameborder="0" allowfullscreen></iframe>
+
 ### TODO
 - blink patterns
 - reshape interface
