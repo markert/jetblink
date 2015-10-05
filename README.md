@@ -19,7 +19,7 @@ The implementation works on a Raspberry PI but can easily be updated to work on 
 
 ### Media
 
-[![Alt text for your video](http://img.youtube.com/vi/WDHESGnZv1w/0.jpg)](https://www.youtube.com/embed/WDHESGnZv1w)
+[![blink(1) mk2 website demo](http://img.youtube.com/vi/WDHESGnZv1w/0.jpg)](https://www.youtube.com/embed/WDHESGnZv1w)
 
 The Media shows the really ugly control website for the [car](https://github.com/markert/jetblink/blob/master/media/picar.png) and the [car itself](https://github.com/markert/jetblink/blob/master/media/IMG_20151003_132251.jpg). 
 
@@ -39,7 +39,7 @@ Light 2 (steering):
 - yellow: left
 - blue: right
 
-[![Alt text for your video](http://img.youtube.com/vi/oB5Ap-rL-zA/0.jpg)](https://www.youtube.com/embed/oB5Ap-rL-zA)
+[![PiCar blink(1) mk2 demo](http://img.youtube.com/vi/oB5Ap-rL-zA/0.jpg)](https://www.youtube.com/embed/oB5Ap-rL-zA)
 
 ### TODO
 - blink patterns
