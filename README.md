@@ -19,6 +19,8 @@ The implementation works on a Raspberry PI but can easily be updated to work on 
 
 ### Media
 
+[![Alt text for your video](http://img.youtube.com/vi/WDHESGnZv1w/0.jpg)](https://www.youtube.com/embed/WDHESGnZv1w)
+
 The Media shows the really ugly control website for the [car](https://github.com/markert/jetblink/blob/master/media/picar.png) and the [car itself](https://github.com/markert/jetblink/blob/master/media/IMG_20151003_132251.jpg). 
 
 There is one video showing the control of the [blink(1) mk2](https://github.com/markert/jetblink/blob/master/media/chrome.webm) over the website. The delay is mostly due to the 1080p camera delay of the RPi. Light changes instantly. It can also be controlled from several clients simultaneuously. 
@@ -37,8 +39,7 @@ Light 2 (steering):
 - yellow: left
 - blue: right
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/oB5Ap-rL-zA" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WDHESGnZv1w" frameborder="0" allowfullscreen></iframe>
+[![Alt text for your video](http://img.youtube.com/vi/oB5Ap-rL-zA/0.jpg)](https://www.youtube.com/embed/oB5Ap-rL-zA)
 
 ### TODO
 - blink patterns
